@@ -35,9 +35,8 @@ override_dh_auto_build:
 	echo Nothing to do for auto build
 
 override_dh_auto_install:
-	mkdir -p debian/stormgears-wpilib/usr
-	tar -C debian/stormgears-wpilib/usr -xjf 20170129_rpi_wpilib.tar.bz2
-	mv debian/stormgears-wpilib/usr/wpilib debian/stormgears-wpilib/usr/stormgears-wpilib
+	mkdir -p debian/stormgears-wpilib/usr/stormgears
+	tar -C debian/stormgears-wpilib/usr/stormgears -xjf 20170129_rpi_wpilib.tar.bz2
 	mkdir -p debian/stormgears-wpilib/usr/bin
 	cp outlineviewer debian/stormgears-wpilib/usr/bin/
 

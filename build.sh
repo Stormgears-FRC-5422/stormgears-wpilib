@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PKG=stormgears-wpilib
-PKGVER=20170129.1
+PKGVER=20170129.2
 PKGREL=1
 
 . /etc/os-release
