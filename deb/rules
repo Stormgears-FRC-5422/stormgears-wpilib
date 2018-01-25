@@ -46,3 +46,10 @@ override_dh_strip_nondeterminism:
 
 override_dh_strip:
 	echo Skipping step to strip binaries
+
+override_dh_makeshlibs:
+	echo Skipping step to make shlibs
+
+override_dh_shlibdeps:
+	echo Skipping step to find shared lib dependencies
+
