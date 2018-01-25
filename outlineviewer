@@ -1,0 +1,4 @@
+#!/bin/bash
+
+java -jar /usr/stormgears-wpilib/tools/OutlineViewer.jar
+
